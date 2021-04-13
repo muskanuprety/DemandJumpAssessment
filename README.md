@@ -15,6 +15,7 @@ The website we are trying to scrape from is ```https://www.visitindy.com/indiana
 The other files are my attempt to solve all the problems for this assessment, but was unable to do so in the given time. I would be happy to talk about what I was trying to do with them if needed.
 
 
+### Brief Description
 
 I was able to scrape the data using a module called ```x-ray```, however, I am realtively inexperienced in using ```requirejs``` so I was not able to load the module for browser use. The code I wrote for scraping the visit-indy website is in ```scrape.js``` which stores the data in ```results.json```.
 
