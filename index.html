@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body {
+			text-align: center;
+			color: black;
+		}
+		td, th{
+			align-content: center;
+			padding: 5px;
+			border: 1px solid #000000;
+		}
+		table{
+			border-collapse: collapse;
+			width: 80%;
+		}
+		#links{
+			width: 40%
+		}
+		th{
+			font-weight: bold
+		}
+		#map{
+			width: 1000px,
+			height: 1000px;
+		}
+	</style>
+	<title>
+		Events in Indianapolis
+	</title>
+	<meta charset="UTF-8">	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+	<script src="create.js"></script>
+	<script async 
+  		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4ivgpk5X7pSaW4GeJeGv7O_gTE5Jj_MI&callback=initMap&libraries=&v=weekly">
+	</script>
+
+</head>
+<body>
+
+	<h1>Welcome to Indianapolis! Check out these amazing Events. </h1>
+	<table id="fancyTable">
+		<thead>
+			<tr>
+				<th> Name of Event</th>
+				<th id="links"><a>Link</a></th>
+				<th id='loc'>Location</th>
+				<th>Time</th>
+			</tr>
+		</thead>
+		<tbody id = 'table_content'>
+			
+		</tbody>
+	</table>
+
+	<div id="map" style="width:1000px; height:300px;"></div>
+	
+	<script>
+		
+	</script>
+
+	
+</body>
+</html>
