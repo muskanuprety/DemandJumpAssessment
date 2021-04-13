@@ -7,8 +7,11 @@ The website we are trying to scrape from is ```https://www.visitindy.com/indiana
 
 ### Relavant Files:
 ```index.html``` : main html file
+
 ```create.js``` :  creates dataTable, loads Google Map, and adds Markers
+
 ```scrape.js``` :  Scrapes visit indy website and stores data in ```results.json```
+
 The other files are my attempt to solve all the problems for this assessment, but was unable to do so in the given time. I would be happy to talk about what I was trying to do with them if needed.
 
 
